@@ -2,4 +2,4 @@
 
 To run Prog1Test.cpp
 
-``./ProgTest.o``
+```./ProgTest.o```
