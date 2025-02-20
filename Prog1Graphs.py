@@ -22,9 +22,9 @@ for code in gap_codes:
     plt.plot(subset['n'], avg_swaps, label=f'Code {code}')
 
 # graph 1 details
-plt.title('Graph 1: n vs Average Number of Swaps')
+plt.title('Graph 1: n vs Average Number of Comparisons')
 plt.xlabel('n (Input Size)')
-plt.ylabel('Average Number of Swaps')
+plt.ylabel('Average Number of Comparisons')
 plt.legend()
 
 # graph 2: plot log(n) vs log(average number of swaps) for each gap code
@@ -41,9 +41,9 @@ for code in gap_codes:
     plt.plot(log_n, log_avg_swaps, label=f'Code {code}')
 
 # graph 2 details
-plt.title('Graph 2: log(n) vs log(Average Number of Swaps)')
+plt.title('Graph 2: log(n) vs log(Average Number of Comparisons)')
 plt.xlabel('log(n)')
-plt.ylabel('log(Average Number of Swaps)')
+plt.ylabel('log(Average Number of Comparisons)')
 plt.legend()
 
 # display the plots
