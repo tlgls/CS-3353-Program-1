@@ -1,6 +1,6 @@
 # CS-3353-Program-1
 
-Check Python version is at least >3.13
+Check Python version is at least >3.13, you check your version by command below:
 ```
 python3 --version
 ```
