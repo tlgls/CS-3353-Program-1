@@ -7,7 +7,9 @@ python3 --version
 
 Install Python dependencies before compiling:
 ```
-pip3 install matplotlib numpy pandas
+pip3 install matplotlib
+pip3 install numpy
+pip3 install pandas
 ```
 
 To compile the files:
