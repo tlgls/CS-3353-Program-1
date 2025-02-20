@@ -1,5 +1,15 @@
 # CS-3353-Program-1
 
+Check Python version is at least >3.13
+```
+python3 --version
+```
+
+Install Python dependencies before compiling:
+```
+pip3 install matplotlib numpy pandas
+```
+
 To compile the files:
 ```
 g++ -o Prog1Test ShellSort.cpp MyObj.cpp Prog1Test.cpp
